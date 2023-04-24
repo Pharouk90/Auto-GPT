@@ -62,6 +62,13 @@ Note: If you don't have Git, you can just download the [latest stable release](h
        - `smart_llm_model_deployment_id` - your gpt-4 deployment ID
        - `embedding_model_deployment_id` - your text-embedding-ada-002 v2 deployment ID
      - Please specify all of these values as double-quoted strings
+     - Please do not specify all of these values as double-quoted strings in v0.2.2 for example
+     - OPENAI_API_KEY= sk-tNxxxxxxxxxxxxxxxxxxxxxx NOT "sk-tNxxxxxxxxxxxxxxxxxxxxxx" removed double quote
+  
+  REMOVE # to enable the section on .env file settings
+  - # MEMORY_BACKEND=local
+  - # MEMORY_INDEX=auto-gpt
+  
        
 ``` shell
 # Replace string in angled brackets (<>) to your own ID
